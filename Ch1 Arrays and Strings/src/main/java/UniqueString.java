@@ -18,21 +18,12 @@ public class UniqueString {
     }
 
     public static void main(String[] args) {
-        Boolean str = isUnique("helo");
-        Boolean str2 = isUnique("hello");
-        Boolean str3 = isUnique("aAbc");
-        Boolean str4 = isUnique("aAabc");
-        Boolean str5 = isUnique("abb");
-        Boolean str6 = isUnique("abc");
-        Boolean str7 = isUnique("abc0");
-        Boolean str8 = isUnique("abc00");
-        System.out.println(str);
-        System.out.println(str2);
-        System.out.println(str3);
-        System.out.println(str4);
-        System.out.println(str5);
-        System.out.println(str6);
-        System.out.println(str7);
-        System.out.println(str8);
+        System.out.println(isUnique("helo"));
+        System.out.println(isUnique("hello"));
+        System.out.println(isUnique("aAbc"));
+        System.out.println(isUnique("aAabc"));
+        System.out.println(isUnique("abc"));
+        System.out.println(isUnique("abc0"));
+        System.out.println(isUnique("abc00"));
     }
 }

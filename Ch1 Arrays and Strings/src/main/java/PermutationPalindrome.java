@@ -28,9 +28,9 @@ public class PermutationPalindrome {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPermutationOfPalindrome("Tact Coa")); // true
-        System.out.println(isPermutationOfPalindrome("A man, a plan, a canal, Panama!")); // true
-        System.out.println(isPermutationOfPalindrome("hello")); // false
+        System.out.println(isPermutationOfPalindrome("Tact Coa"));
+        System.out.println(isPermutationOfPalindrome("A man, a plan, a canal, Panama!"));
+        System.out.println(isPermutationOfPalindrome("hello"));
     }
 
 }
