@@ -1,6 +1,8 @@
 public class PermutationPalindrome {
 
     public static boolean isPermutationOfPalindrome(String s) {
+        // 1.4 Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome.
+        // The palindrome does not need to be limited to just dictionary words. You can ignore casing and non-letter characters
 
         // Clean up the string by converting all characters to lowercase and removing non-letter characters
         s = s.replaceAll("[^a-zA-Z]", "").toLowerCase();

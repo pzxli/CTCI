@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
 public class Permutation {
+    // 1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the other
+
     public static boolean isPermutation (String a, String b){
         int s1 = a.length();
         int s2 = b.length();
