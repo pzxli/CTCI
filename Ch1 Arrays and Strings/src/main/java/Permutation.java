@@ -26,13 +26,7 @@ public class Permutation {
     }
 
     public static void main(String[] args) {
-        String x = "this";
-        String y = "shit";
-
-        String c = "no";
-        String d = "yes";
-        System.out.println(isPermutation(x, y));
-        System.out.println(isPermutation(c, d));
-
+        System.out.println(isPermutation("this", "shit"));
+        System.out.println(isPermutation("no", "yes"));
     }
 }
